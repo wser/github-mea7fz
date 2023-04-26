@@ -6,7 +6,7 @@ import deno from '@astrojs/deno';
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
+  //output: 'server',
   adapter: deno(),
   site: 'https://example.com',
   integrations: [mdx(), sitemap()],
